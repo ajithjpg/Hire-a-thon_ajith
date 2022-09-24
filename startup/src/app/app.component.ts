@@ -8,16 +8,24 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'startup';
 
-  convertedObj:any = "";
+  convertedObj=[];
+  
+
   convert(objArray:any) {
     console.log(objArray);
-    this.convertedObj = JSON.stringify(objArray['result']);
-    alert(this.convertedObj.length)
+    const data = objArray['result'];
 
-    for (let index = 0; index < this.convertedObj.length; index++) {
-      if(this.convertedObj[index].Hours != undefined)
-      this.convertedObj= this.convertedObj[index].Hours;
+    for (let index = 0; index < data.length; index++) {
+     this.convertedObj = data
+      
     }
+    for (let i = 0; i < this.convertedObj.length; i++) {
+      const element = this.convertedObj[i];
+      console.log(element['Hours']<5)
+      
+      
+    }
+    
     
     console.log(this.convertedObj)
   }

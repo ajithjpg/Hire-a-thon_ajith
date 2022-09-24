@@ -1,11 +1,10 @@
 <!-- <router-outlet></router-outlet> -->
 <Ngx-CSVtoJSON (onConvert)="convert($event)" (onFail)="onError($event)"></Ngx-CSVtoJSON>
-{{convertedObj}}
 
 
 
-  <!-- <div *ngFor="let import of convertedObj; let i=index; ">
-{{import}}
-  </div> -->
+  <div *ngFor="let import of convertedObj ; let i=index; ">
+{{import |json}}
+  </div>
 
   
