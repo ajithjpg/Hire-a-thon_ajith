@@ -11,6 +11,10 @@ import { MatButtonModule } from "@angular/material/button";
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { LandingComponent } from './landing/landing.component';
 import { MatCardModule } from "@angular/material/card";
+import { Landing1Component } from './landing1/landing1.component';
+import { TestimonyComponent } from './testimony/testimony.component';
+import { WorkspaceComponent } from './workspace/workspace.component';
+import { Landing2Component } from './landing2/landing2.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,6 +22,10 @@ import { MatCardModule } from "@angular/material/card";
     HeaderComponent,
     FooterComponent,
     LandingComponent,
+    Landing1Component,
+    TestimonyComponent,
+    WorkspaceComponent,
+    Landing2Component,
     
   ],
   imports: [
