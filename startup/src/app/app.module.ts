@@ -9,13 +9,15 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { MatButtonModule } from "@angular/material/button";
 import { FlexLayoutModule } from '@angular/flex-layout';
-
+import { LandingComponent } from './landing/landing.component';
+import { MatCardModule } from "@angular/material/card";
 @NgModule({
   declarations: [
     AppComponent,
     AuthcomponentComponent,
     HeaderComponent,
     FooterComponent,
+    LandingComponent,
     
   ],
   imports: [
@@ -23,7 +25,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     AppRoutingModule,
     BrowserAnimationsModule,
     FlexLayoutModule,
-    MatButtonModule
+    MatButtonModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

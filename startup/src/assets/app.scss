@@ -12,7 +12,15 @@
 .font-600{
     font: normal normal 600 20px/32px Proxima Nova;
 }
-
+.fs-15{
+    font-size: 15px !important;
+}
+.fs-12{
+    font-size: 12px !important;
+}
+.fs-18{
+    font-size: 18px !important;
+}
 .text-capital {
     text-transform: capitalize !important;
 }
@@ -39,6 +47,9 @@
 
 .clr-orng {
     color: #FF6E00;
+}
+.bg-grey{
+    background-color: #565656;
 }
 .pa-2{
     padding: 1rem !important;
@@ -67,4 +78,19 @@
 }
 .w-90{
     width: 90% !important;
+}
+.text-center{
+    text-align: center !important;
+}
+.pt-1{
+    padding-top: .5rem !important;
+}
+.pa-3{
+    padding: 3rem !important;
+}
+.pt-2{
+    padding-top: 1rem !important;
+}
+.w-100{
+    width: 100% !important;
 }
