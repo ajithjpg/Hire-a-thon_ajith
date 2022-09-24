@@ -15,6 +15,7 @@ import { Landing1Component } from './landing1/landing1.component';
 import { TestimonyComponent } from './testimony/testimony.component';
 import { WorkspaceComponent } from './workspace/workspace.component';
 import { Landing2Component } from './landing2/landing2.component';
+import { Landing3Component } from './landing3/landing3.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,6 +27,7 @@ import { Landing2Component } from './landing2/landing2.component';
     TestimonyComponent,
     WorkspaceComponent,
     Landing2Component,
+    Landing3Component,
     
   ],
   imports: [
