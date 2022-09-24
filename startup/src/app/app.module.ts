@@ -7,7 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AuthcomponentComponent } from './authcomponent/authcomponent.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-
+import { MatButtonModule } from "@angular/material/button";
 import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
@@ -16,12 +16,14 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     AuthcomponentComponent,
     HeaderComponent,
     FooterComponent,
-    FlexLayoutModule
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    FlexLayoutModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

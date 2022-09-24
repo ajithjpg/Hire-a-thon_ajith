@@ -109,5 +109,7 @@
       }
     }
   },
-  "defaultProject": "startup"
+  "cli": {
+    "analytics": "20ea73b5-9f9d-4d1b-b67e-493171da7a4d"
+  }
 }
